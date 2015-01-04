@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Microsoft.Web.WebPages.OAuth;
-using PassQuiz.Web.Models;
-
-namespace PassQuiz.Web
+﻿namespace PassQuiz.Web
 {
     public static class AuthConfig
     {
