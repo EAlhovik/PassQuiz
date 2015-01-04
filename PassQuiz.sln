@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{7CFB3E48-8972-48DA-B970-F8C94FA0EFB2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{049CB40B-AE16-4AF4-A11A-F80E0F070693}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{BBF4FFAE-0545-4012-A02C-370313D871A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PassQuiz.Business.ViewModels", "Business\PassQuiz.Business.ViewModels\PassQuiz.Business.ViewModels.csproj", "{03BD15E9-9A3F-4B9A-96CF-61D1CFB917F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PassQuiz.Web", "Web\PassQuiz.Web\PassQuiz.Web.csproj", "{5D23FE6B-FE7C-4424-B4E9-235697F3D8E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03BD15E9-9A3F-4B9A-96CF-61D1CFB917F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03BD15E9-9A3F-4B9A-96CF-61D1CFB917F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03BD15E9-9A3F-4B9A-96CF-61D1CFB917F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03BD15E9-9A3F-4B9A-96CF-61D1CFB917F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D23FE6B-FE7C-4424-B4E9-235697F3D8E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D23FE6B-FE7C-4424-B4E9-235697F3D8E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D23FE6B-FE7C-4424-B4E9-235697F3D8E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D23FE6B-FE7C-4424-B4E9-235697F3D8E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{03BD15E9-9A3F-4B9A-96CF-61D1CFB917F8} = {7CFB3E48-8972-48DA-B970-F8C94FA0EFB2}
+		{5D23FE6B-FE7C-4424-B4E9-235697F3D8E5} = {BBF4FFAE-0545-4012-A02C-370313D871A6}
+	EndGlobalSection
+EndGlobal
